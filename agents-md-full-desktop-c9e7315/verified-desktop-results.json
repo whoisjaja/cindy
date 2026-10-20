@@ -1,0 +1,147 @@
+{
+  "commit": "c9e7315f4f649e1d519b9049a8e53e38b770d44d",
+  "runtime": {
+    "claude": "2.1.296",
+    "codex": "0.159.2",
+    "electron": "42.11.12"
+  },
+  "mode": "full Desktop development app with real CLI and loopback-only deterministic provider",
+  "profile": "Cindy-dev2-agents-md-acceptance",
+  "restartPids": [
+    37036,
+    37472
+  ],
+  "overrideFileRemoved": true,
+  "noUpstreamAuthHeaders": true,
+  "nativeInstructionMarkerObserved": true,
+  "unchangedAgentsMdSha256": {
+    "native": "9ca1fd7a82467cb4b4f21e5e21edd0bab2996b3ccce44731649e9b5dcf61c3ac",
+    "unknown": "0dd2ae85670e7217d141327d43d4092f9a1851c9a98571fad70a1ace5ee89640",
+    "other": "a274e8889dc1be16b48acb1b51702646b3cf9280988e469f8622120bca314610",
+    "mixed": "d83f73dc5bbfce5935e55a08910e0818aafd962ca943e6a2d8ac9d26ec9539f1",
+    "failure": "0f8900174bf05613fc18030b0895afd08b75b6738230748485508c3d9f245a55"
+  },
+  "cases": [
+    {
+      "at": "2026-10-20T08:06:59.804Z",
+      "stage": "native",
+      "pid": 37036,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "actual New → project/model pickers → Send skipped conversion and received loopback response in message stream; upstream payload contained the native AGENTS fixture marker",
+      "url": "http://localhost:5174/#/cc-agent/8648436a-9c0a-4a71-92e5-ad090636fa5e",
+      "nativeInstructionMarkerObserved": true
+    },
+    {
+      "at": "2026-10-20T08:03:01.028Z",
+      "stage": "cancel",
+      "pid": 37036,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "unknown capability prompted; Cancel and Esc did not persist; next new-task send prompted again"
+    },
+    {
+      "at": "2026-10-20T08:03:04.321Z",
+      "stage": "suppress",
+      "pid": 37036,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "workspace suppression saved by real dialog button; no CLAUDE.md created",
+      "preferenceCount": 1
+    },
+    {
+      "at": "2026-10-20T08:03:07.912Z",
+      "stage": "other",
+      "pid": 37036,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "another directory still prompts while first directory remains suppressed"
+    },
+    {
+      "at": "2026-10-20T08:14:02.738Z",
+      "stage": "mixed",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "only AGENTS item removed; agents/hooks/MCP remain in same production dialog",
+      "remaining": [
+        "agents (1 个新增)",
+        "Codex hooks → Claude hooks",
+        ".codex/config.toml → .mcp.json"
+      ]
+    },
+    {
+      "at": "2026-10-20T08:03:14.999Z",
+      "stage": "failure",
+      "pid": 37036,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "source removed after detection caused real conversion failure; preference was not saved"
+    },
+    {
+      "at": "2026-10-20T08:22:07.447Z",
+      "stage": "reverse",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "same directory forward preference does not hide the reverse conversion for Codex"
+    },
+    {
+      "at": "2026-10-20T08:08:22.210Z",
+      "stage": "after-restart",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "after a real Desktop process restart, same directory skips the instruction prompt",
+      "preferences": [
+        "c:\\users\\xd\\appdata\\local\\temp\\cindy-agents-md-desktop-7loo5p\\unknown",
+        "c:\\users\\xd\\appdata\\local\\temp\\cindy-agents-md-desktop-7loo5p\\mixed",
+        "c:\\users\\xd\\appdata\\local\\temp\\cindy-agents-md-desktop-7loo5p\\reverse"
+      ]
+    },
+    {
+      "at": "2026-10-20T08:08:26.745Z",
+      "stage": "restore",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "real application menu → Settings → General → restore selected directory; next New → Send prompts again; other saved directories retained"
+    },
+    {
+      "at": "2026-10-20T08:08:35.035Z",
+      "stage": "restore-native",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "restoring deletes override and re-detects; after native support becomes provable, AGENTS prompt stays absent"
+    },
+    {
+      "at": "2026-10-20T08:08:37.307Z",
+      "stage": "cleanup-preferences",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "restoring last saved directory removes the conditional recovery section and all overrides"
+    },
+    {
+      "at": "2026-10-20T08:18:38.775Z",
+      "stage": "other-conversions",
+      "pid": 37472,
+      "build": "0.0.0 · cindy/sturdy-lederberg@c9e7315",
+      "inputSelection": "production project/model pickers",
+      "passed": true,
+      "result": "after suppressing only instructions, real Convert completed agents/hooks/MCP and produced all three target configs, without creating CLAUDE.md"
+    }
+  ]
+}
