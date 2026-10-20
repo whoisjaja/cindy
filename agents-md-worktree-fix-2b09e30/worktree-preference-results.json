@@ -1,0 +1,50 @@
+{
+  "sourceCommit": "2b09e30f76d26d50e00cf504fbe3f8b901d0556a",
+  "before": {
+    "stage": "before",
+    "pid": 38460,
+    "build": "0.0.0 · cindy/sturdy-lederberg@b978633",
+    "baseRepo": "C:\\Users\\XD\\AppData\\Local\\Temp\\cindy-agents-md-desktop-7LoO5P\\native",
+    "saved": [
+      "c:\\users\\xd\\appdata\\local\\temp\\cindy-agents-md-desktop-7loo5p\\native"
+    ],
+    "bug": "generated worktree flow saved suppression for base repository"
+  },
+  "after": [
+    {
+      "stage": "after-generated",
+      "pid": 38300,
+      "build": "0.0.0 · cindy/sturdy-lederberg@2b09e30",
+      "passed": true,
+      "newDir": "C:\\Users\\XD\\AppData\\Local\\Temp\\cindy-agents-md-desktop-7LoO5P\\native\\.cindy-worktrees\\quirky-kapitsa",
+      "sessionId": "ae684503-ee56-4d33-8c4d-bad9aa8a1efa",
+      "result": "base preference did not hide future worktree prompt; no persistent action; actual worktree created and CLI replied; no extra preference saved"
+    },
+    {
+      "stage": "existing-generated",
+      "pid": 38300,
+      "build": "0.0.0 · cindy/sturdy-lederberg@2b09e30",
+      "passed": true,
+      "newDir": "C:\\Users\\XD\\AppData\\Local\\Temp\\cindy-agents-md-desktop-7LoO5P\\existing-worktree",
+      "result": "selecting the existing user worktree saved only its physical directory alongside independent base preference"
+    },
+    {
+      "stage": "restore-base",
+      "pid": 38300,
+      "build": "0.0.0 · cindy/sturdy-lederberg@2b09e30",
+      "passed": true,
+      "newDir": "C:\\Users\\XD\\AppData\\Local\\Temp\\cindy-agents-md-desktop-7LoO5P\\existing-worktree",
+      "result": "restoring base leaves existing worktree suppressed; base ordinary task prompts again and existing worktree still skips"
+    },
+    {
+      "stage": "restore-generated",
+      "pid": 38300,
+      "build": "0.0.0 · cindy/sturdy-lederberg@2b09e30",
+      "passed": true,
+      "newDir": "C:\\Users\\XD\\AppData\\Local\\Temp\\cindy-agents-md-desktop-7LoO5P\\existing-worktree",
+      "result": "restoring existing user worktree re-enables its prompt; all fixture preferences cleared"
+    }
+  ],
+  "preferenceFileRemoved": true,
+  "provider": "loopback fixed response; no real model call"
+}
